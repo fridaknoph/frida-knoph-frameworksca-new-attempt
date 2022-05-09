@@ -1,0 +1,28 @@
+body {
+    font-family: $font-familiy-base;
+    color: $color-lighter;
+}
+
+.social_media {
+    color: black;
+}
+
+.h1 {
+    font-family: $headings-font-familiy;
+    color: $color-primary !important;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 5px;
+}
+
+h3 {
+    font-family: 'Playfair Display';
+    margin-top: 30px;
+    font-size: 34px;
+}
+
+.description {
+    font-size: 16px;
+    margin-bottom: 40px;
+}

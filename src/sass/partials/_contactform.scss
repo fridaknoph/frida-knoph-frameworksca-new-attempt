@@ -1,0 +1,83 @@
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(229,229,229,1) 100%);
+    padding: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.05);
+    font-family: "Lato";
+}
+
+.btn-secondary {
+    background-color: #767676;
+    margin: 0px;
+}
+
+
+.form-check-input {
+    background-color: $color-primary;
+}
+
+.input-group-text {
+padding-bottom: 0px;
+padding-top: 0px;
+margin-top: 0px;
+background-color: #C7C7C7;
+color: #fff;
+border-radius: 0px;    
+}
+
+.form-control {
+    padding: 23px;
+}
+  
+.info-email-location-telephone {
+    margin-top: 50px;
+    font-size: 16px;
+    margin-left: 40px;
+    color: #767676;
+    line-height: 50px;
+}
+
+
+.fa-envelope {
+    font-size: 30px;
+    margin-right: 20px;
+    
+}
+
+.fa-phone {
+    font-size: 30px;
+    margin-right: 20px;
+
+
+}
+
+.fa-map-marker-alt {
+    font-size: 30px;
+    margin-right: 20px;
+
+
+}
+
+input[type="radio"], input[type="checkbox"] {
+    background-color: $color-primary;
+    padding: 10px;
+}
+
+@media (max-width: 411px) {
+
+    .col {
+        order: 2
+    }
+    .info-email-location-telephone {
+        order: 1
+    }
+
+    .row {
+        flex-direction: column;
+    }
+}
+

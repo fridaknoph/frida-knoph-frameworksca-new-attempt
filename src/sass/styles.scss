@@ -1,0 +1,43 @@
+$color-primary: #e92569;
+$color-secondary: #efefef;
+$color-dark: #0a0a0a;
+$color-lighter: #767676;
+
+#root {
+    display: flex;
+    flex-direction: column;
+}
+
+#wrapper {
+    flex-grow: 1;
+}
+
+$theme-colors: (
+    "primary": $color-primary,
+);
+
+$headings-font-familiy: "Playfair Display", serif;
+$font-familiy-base: "Lato", sans-serif;
+$headings-color: $color-primary;
+
+$body-color: $color-dark;
+
+body {
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(229,229,229,1) 100%);
+}
+
+img {
+    max-width: 100%;
+}
+
+
+@import "~bootstrap/scss/bootstrap";
+@import "./partials/tabs";
+@import "./partials/nav";
+@import "./partials/typography";
+@import "./partials/carousel";
+@import "./partials/footer";
+@import "./partials/cards";
+@import "./partials/pagnation";
+@import "./partials/contactform";
